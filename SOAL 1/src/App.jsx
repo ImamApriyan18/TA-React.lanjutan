@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
-import CardProduct from "./components/CartProduct";
+import CardProduct from "./components/CardProduct";
 import CartListItem from "./components/CartListItem";
 import Navbar from "./components/Navbar";
+
 import menus from "./dummy-data";
 
 export default function App() {
@@ -9,11 +10,11 @@ export default function App() {
   const [purchasedItem, setPurchasedItem] = useState(0);
   const [cart, setCart] = useState([]);
 
-  const addToCart = (id) => {};
+  const addToCart = (id) => { };
 
-  const decreaseCartAmount = (id) => {};
+  const decreaseCartAmount = (id) => { };
 
-  const increaseCartAmount = (id) => {};
+  const increaseCartAmount = (id) => { };
 
   return (
     <div className="bg-secondary">
